@@ -1,0 +1,218 @@
+/* entire page settings */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    background-image: url('/Worldview/Resources/Images/blockchain_cool.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
+    padding: 0px;
+    font-weight: bold;
+    font-family: Lato, Roboto, Montserrat;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+}
+
+/* Navigation bar */
+ul {
+    background-color: #000000;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+li {
+    display: inline;
+}
+
+nav ul {
+    float: center;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 10px;
+    margin: 0 5px;
+}
+
+#nav ul li a {
+    color: #FFFFFF;
+    font-size: 0.75em;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+/* H1 text on background-image */
+.content h1 {
+    font-size: 2.2em;
+    color: black;
+    position: relative;
+    float: left;
+    padding-top: 1.5%;
+    padding-right: 350px;
+    padding-left: 3.%;
+    padding-bottom: 1.5%;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 17%;
+    border-block-style: solid
+}
+
+
+/* Hoverable links CSS trick */
+a {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: #54b3d6;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Media queries */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    nav ul {
+        display: grid;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        line-height: 20px;
+        margin: 0 5px;
+    }
+
+    p {
+        padding: 2%;
+        margin-left: 15%;
+    }
+
+    .input {
+        width: auto;
+        color: #000000;
+        font-family: Lato, Roboto, Montserrat;
+        font-weight: 500;
+        font-size: 0.76em;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: transparent;
+        border: 1px solid black;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        outline: 0;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    nav ul {
+        display: grid;
+        align-items: center;
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    nav ul li {
+        line-height: 20px;
+        margin: 0 5px;
+    }
+
+    p {
+        padding: 2%;
+        margin-left: 25%;
+    }
+
+    .input {
+        width: auto;
+        color: #000000;
+        font-family: Lato, Roboto, Montserrat;
+        font-weight: 500;
+        font-size: 0.76em;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: transparent;
+        border: 1px solid black;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        outline: 0;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    nav ul {
+        display: grid;
+        align-items: center;
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    nav ul li {
+        line-height: 20px;
+        margin: 0 5px;
+    }
+
+    p {
+        padding: 2%;
+        margin-left: 18%;
+    }
+
+    .input {
+        width: 60%;
+        color: #000000;
+        font-family: Lato, Roboto, Montserrat;
+        font-weight: 500;
+        font-size: 0.76em;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: transparent;
+        border: 1px solid black;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        outline: 0;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+    }
+}
+
+
+@media print {
+    nav {
+        display: none;
+    }
+}
