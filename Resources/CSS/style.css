@@ -53,7 +53,7 @@ nav ul li {
 /* Hero/header section */
 
 #banner {
-    background-image: url('/Worldview/Resources/Images/blockchain_cool.png');
+    background-image: url('/Resources/Images/blockchain_cool.png');
     background-size: cover;
     background-position: bottom center;
     height: 600px;
