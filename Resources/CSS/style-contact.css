@@ -134,20 +134,11 @@ footer {
 
 span {
     display: flex;
+    margin-left: 2%;
 }
 
-
-.pfooter1 {
-    text-align: left;
-    margin-left: 2%;
-    font-size: 0.8em;
-}
-
-.pfooter2 {
-    padding-left: 67%;
-    text-align: left;
-    margin-left: 2%;
-    font-size: 0.8em;
+.footerp {
+    margin-left: 75%;
 }
 
 /* Hoverable links */
@@ -186,8 +177,8 @@ a:hover::after {
     hyphens: auto;
 }
 
-/* Media queries*/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+/* Media queries */
+@media only screen and (min-width: 320px) and (max-width: 400px) {
     nav ul {
         display: grid;
         align-items: center;
@@ -199,9 +190,14 @@ a:hover::after {
         margin: 0 5px;
     }
 
-    p {
-        padding: 2%;
-        margin-left: 15%;
+h1 {
+    font-size: 24px;
+}
+
+    .p2 {
+        padding: auto;
+        margin-left: auto;
+        font-size: 18px;
     }
 
     .input {
@@ -222,38 +218,40 @@ a:hover::after {
         position: relative;
 
     }
-    
-    [type="submit"] {
-        width: 40%;
-    }
-    
-    h1 {
-        text-align: center;
-        font-size: 24px;
-    }
 
-    .pcontact {
-        margin-left: 15%;
-    }
-    
-    span {
-        display: inline-block;
-        overflow-x: hidden;
-    }
-    
-    
-    .pfooter1 {
-      font-size: 0.5em;
-        text-align: left;
-        margin-left: 0%;
-    }
-    
-    .pfooter2 {
-        font-size: 0.5em;
-        padding-left: 0%;
-        text-align: left;
-        margin-left: 0%
-    }
+    /* Special Team class */
+    .team {
+    display: inline;
+    text-align: left;
+    color: #000000;
+    font-size: 16px;
+   }
+
+   .team img {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    max-width: 120px;
+    max-height: 120px;
+    margin-right: 2%;
+}
+
+   p {
+    margin: 2%;
+   }
+
+   span {
+    display: flex;
+    overflow-x: hidden;
+}
+
+   span p {
+    font-size: 0.5em;
+}
+
+.footerp {
+    margin-left: 0%;
+}
+
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -271,7 +269,7 @@ a:hover::after {
 
     p {
         padding: 2%;
-        margin-left: 25%;
+        margin-left: 10%;
     }
 
     .input {
@@ -291,41 +289,41 @@ a:hover::after {
         text-align: left;
         position: relative;
     }
-    
-    [type="submit"] {
-        width: 40%;
-    }
-    
+
     h1 {
-        text-align: left;
-        margin-left: 11%;
         font-size: 24px;
     }
 
-    .pcontact {
-        margin-left: 10%;
-    }
-    
-    span {
-        display: flex;
-        overflow-x: hidden;
-    }
-    
-    
-    .pfooter1 {
-      font-size: 0.5em;
-        text-align: left;
-        margin-left: 0%;
-    }
-    
-    .pfooter2 {
-        font-size: 0.5em;
-        padding-left: 0%;
-        text-align: left;
-        margin-left: 2%
-    }
+/* Special Team class */
+.team {
+    display: inline;
+    text-align: left;
+    color: #000000;
+    font-size: 16px;
+   }
+
+   .team img {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    max-width: 130px;
+    max-height: 130px;
+    margin-right: 2%;
 }
 
+   p {
+    margin-left: 2%;
+   }
+
+
+   span p {
+    font-size: 0.7em;
+}
+
+.footerp {
+    margin-left: 10%;
+}
+    
+}
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     nav ul {
@@ -340,11 +338,6 @@ a:hover::after {
         margin: 0 5px;
     }
 
-    p {
-        padding: 2%;
-        margin-left: 18%;
-    }
-
     .input {
         width: 60%;
         color: #000000;
@@ -362,99 +355,79 @@ a:hover::after {
         text-align: left;
         position: relative;
     }
-    [type="submit"] {
-        width: 40%;
-    }
-    
-    h1 {
+
+    .team {
+        display: inline;
         text-align: left;
-        margin-left: 16%;
+        color: #000000;
+        font-size: 21px;
+       }
+    
+       .team img {
+        padding-top: 2%;
+        padding-bottom: 3%;
+        max-width: 170px;
+        max-height: 170px;
+        margin-right: 2%;
+    }
+
+    h1 {
         font-size: 24px;
     }
     
-    .pcontact {
-        margin-left: 15%;
-    }
-    
+    p {
+        margin-left: 2%;
+       }
+
+    .pwhat {
+        text-align: left;
+       }
+
     span {
         display: flex;
         overflow-x: hidden;
     }
     
-    
-    .pfooter1 {
-      font-size: 0.7em;
-        text-align: left;
-        margin-left: 0%;
-    }
-    
-    .pfooter2 {
+    span p {
         font-size: 0.7em;
-        padding-left: 0%;
-        text-align: left;
-        margin-left: 2%
-    }
-}
-
-@media only screen and (min-width: 1000px) and (max-width: 2000px) {
-     p {
-        padding: 2%;
-        margin-left: 18%;
-    }
-
-    .input {
-        width: 60%;
-        color: #000000;
-        font-family: Lato, Roboto, Montserrat;
-        font-weight: 500;
-        font-size: 0.76em;
-        border-radius: 5px;
-        line-height: 22px;
-        background-color: transparent;
-        border: 1px solid black;
-        transition: all 0.3s;
-        box-sizing: border-box;
-        outline: 0;
-        display: inline-block;
-        text-align: left;
-        position: relative;
-    }
-    [type="submit"] {
-        width: 40%;
     }
     
-    h1 {
-        text-align: left;
-        margin-left: 12%;
-    }
-    
-    .pcontact {
+    .footerp {
         margin-left: 10%;
     }
     
-    span {
-        display: flex;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    p {
+        margin-left: 5%;
+    }
+
+    .pwhat {
+        text-align: center;
+       }
+
+   span {
+  
         overflow-x: hidden;
     }
     
-    
-    .pfooter1 {
-      font-size: 0.7em;
-        text-align: left;
-        margin-left: 9%;
-    }
-    
-    .pfooter2 {
+    span p {
         font-size: 0.7em;
-        padding-left: 0%;
-        text-align: left;
-        margin-left: 25%
+        margin-left: 2%;
+
     }
+    
+    .footerp {
+       margin-left: 70%;
+    }
+    
 }
-
-
-
-
 
 @media print {
     nav {
