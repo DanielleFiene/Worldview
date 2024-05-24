@@ -66,11 +66,10 @@ h1 {
 }
 
 p {
-    font-size: 0.76em;
+    font-size: 1em;
     text-align: left;
-    margin-left: 40%;
+    margin-left: 44%;
     padding: 10px;
-
 }
 
 /* Special for contact form*/
@@ -122,8 +121,36 @@ textarea {
 [type="submit"]:hover {
     background: #CC4949;
 }
+/* contact temporary link */
 
-/* Hoverable links CSS trick */
+
+/* footer */
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+span {
+    display: flex;
+}
+
+
+.pfooter1 {
+    text-align: left;
+    margin-left: 2%;
+    font-size: 0.8em;
+}
+
+.pfooter2 {
+    padding-left: 67%;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 0.8em;
+}
+
+/* Hoverable links */
 a {
     display: inline-block;
     position: relative;
@@ -199,6 +226,34 @@ a:hover::after {
     [type="submit"] {
         width: 40%;
     }
+    
+    h1 {
+        text-align: left;
+        margin-left: 15%;
+    }
+
+    .pcontact {
+        margin-left: 15%;
+    }
+    
+    span {
+        display: inline-block;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.5em;
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.5em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 0%
+    }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -236,8 +291,37 @@ a:hover::after {
         text-align: left;
         position: relative;
     }
+    
     [type="submit"] {
         width: 40%;
+    }
+    
+    h1 {
+        text-align: left;
+        margin-left: 11%;
+    }
+
+    .pcontact {
+        margin-left: 10%;
+    }
+    
+    span {
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.5em;
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.5em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 2%
     }
 }
 
@@ -280,7 +364,93 @@ a:hover::after {
     [type="submit"] {
         width: 40%;
     }
+    
+    h1 {
+        text-align: left;
+        margin-left: 16%;
+    }
+    
+    .pcontact {
+        margin-left: 15%;
+    }
+    
+    span {
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.7em;
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.7em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 2%
+    }
 }
+
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+     p {
+        padding: 2%;
+        margin-left: 18%;
+    }
+
+    .input {
+        width: 60%;
+        color: #000000;
+        font-family: Lato, Roboto, Montserrat;
+        font-weight: 500;
+        font-size: 0.76em;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: transparent;
+        border: 1px solid black;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        outline: 0;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+    }
+    [type="submit"] {
+        width: 40%;
+    }
+    
+    h1 {
+        text-align: left;
+        margin-left: 12%;
+    }
+    
+    .pcontact {
+        margin-left: 10%;
+    }
+    
+    span {
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.7em;
+        text-align: left;
+        margin-left: 9%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.7em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 25%
+    }
+}
+
+
 
 
 

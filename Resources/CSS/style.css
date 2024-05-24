@@ -122,6 +122,32 @@ a {
     cursor: pointer;
 }
 
+/* footer */
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+span {
+    display: flex;
+}
+
+
+.pfooter1 {
+    text-align: left;
+    margin-left: 2%;
+    font-size: 0.8em;
+}
+
+.pfooter2 {
+    padding-left: 67%;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 0.8em;
+}
+
 a::after {
     content: '';
     position: absolute;
@@ -163,8 +189,8 @@ a:hover::after {
     }
 
     p {
-        padding: 2%;
-        margin-left: 15%;
+        padding: auto%;
+        margin-left: auto;
     }
 
     .input {
@@ -184,6 +210,25 @@ a:hover::after {
         text-align: left;
         position: relative;
 
+    }
+
+    span {
+        display: inline-block;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.5em;
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.5em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 0%
     }
 }
 
@@ -202,7 +247,7 @@ a:hover::after {
 
     p {
         padding: 2%;
-        margin-left: 25%;
+        margin-left: 10%;
     }
 
     .input {
@@ -222,6 +267,25 @@ a:hover::after {
         text-align: left;
         position: relative;
     }
+
+    span {
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.5em;
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.5em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 2%
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -237,9 +301,9 @@ a:hover::after {
         margin: 0 5px;
     }
 
-    p {
-        padding: 2%;
-        margin-left: 18%;
+   p {
+        padding: %;
+        margin-left: %;
     }
 
     .input {
@@ -258,6 +322,46 @@ a:hover::after {
         display: inline-block;
         text-align: left;
         position: relative;
+    }
+
+    span {
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.7em;
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.7em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 2%
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+    span {
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.7em;
+        text-align: left;
+        margin-left: 9%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.7em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 25%
     }
 }
 

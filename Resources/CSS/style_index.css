@@ -69,6 +69,31 @@ nav ul li {
     border-block-style: solid;
 }
 
+/* footer */
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+span {
+    display: flex;
+}
+
+
+.pfooter1 {
+    text-align: left;
+    margin-left: 2%;
+    font-size: 0.8em;
+}
+
+.pfooter2 {
+    padding-left: 67%;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 0.8em;
+}
 
 /* Hoverable links CSS trick */
 a {
@@ -134,6 +159,25 @@ a:hover::after {
         position: relative;
 
     }
+
+    span {
+        display: inline-block;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.5em;
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.5em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 0%
+    }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -171,6 +215,25 @@ a:hover::after {
         text-align: left;
         position: relative;
     }
+
+    span {
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.5em;
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.5em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 2%
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -207,6 +270,46 @@ a:hover::after {
         display: inline-block;
         text-align: left;
         position: relative;
+    }
+
+    span {
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.7em;
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.7em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 2%
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+    span {
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    
+    .pfooter1 {
+      font-size: 0.7em;
+        text-align: left;
+        margin-left: 9%;
+    }
+    
+    .pfooter2 {
+        font-size: 0.7em;
+        padding-left: 0%;
+        text-align: left;
+        margin-left: 25%
     }
 }
 
