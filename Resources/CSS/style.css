@@ -63,18 +63,6 @@ nav ul li {
 
 /* Main section */
 
-.h1 {
-    border: 3px solid black;
-    color: white;
-    position: relative;
-    float: left;
-    top: 150px;
-    left: 300px;
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 img {
     float: right;
     margin: 00px 20px 20px;
@@ -83,20 +71,21 @@ img {
     margin: 0px;
 }
 
-p {
+.p3 {
     font-size: 0.8em;
     text-align: left;
 }
 
 .p2 {
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: center;
-    text-decoration: underline;
 }
 
 .pwhat {
+    font-size: 18px;
     text-align: center;
-   }
+    float: center;
+}
 
 /* Special Team class */
 .team {
@@ -116,7 +105,26 @@ p {
     margin-bottom: 2%;
 }
 
-/* Hoverable links CSS trick */
+/* footer */
+
+.footer-main {
+    background-color: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.5em;
+    display: flex;
+}
+.footer-about, .footer-services, .footer-contact {
+        width: 100%;
+}
+
+.footer-contact a {
+    color: #FFFFFF;
+}
+
+/* Hoverable links */
 a {
     display: inline-block;
     position: relative;
@@ -124,25 +132,6 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-
-/* footer */
-
-footer {
-    background-color: #000000;
-    color: #FFFFFF;
-    opacity: 0.8;
-}
-
-span {
-    display: flex;
-    margin-left: 2%;
-}
-
-.footerp {
-    margin-left: 75%;
-}
-
-/* Hoverable links CSS trick */
 
 a::after {
     content: '';
@@ -194,23 +183,8 @@ h1 {
         font-size: 18px;
     }
 
-    .input {
-        width: auto;
-        color: #000000;
-        font-family: Lato, Roboto, Montserrat;
-        font-weight: 500;
-        font-size: 0.76em;
-        border-radius: 5px;
-        line-height: 22px;
-        background-color: transparent;
-        border: 1px solid black;
-        transition: all 0.3s;
-        box-sizing: border-box;
-        outline: 0;
-        display: inline-block;
-        text-align: left;
-        position: relative;
-
+    .p3 {
+        margin-left: 2%;
     }
 
     /* Special Team class */
@@ -229,22 +203,6 @@ h1 {
     margin-right: 2%;
 }
 
-   p {
-    margin: 2%;
-   }
-
-   span {
-    display: flex;
-    overflow-x: hidden;
-}
-
-   span p {
-    font-size: 0.5em;
-}
-
-   .footerp {
-    margin-left: 0%;
-}
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
@@ -260,31 +218,13 @@ h1 {
         margin: 0 5px;
     }
 
-    p {
-        padding: 2%;
-        margin-left: 10%;
-    }
-
-    .input {
-        width: auto;
-        color: #000000;
-        font-family: Lato, Roboto, Montserrat;
-        font-weight: 500;
-        font-size: 0.76em;
-        border-radius: 5px;
-        line-height: 22px;
-        background-color: transparent;
-        border: 1px solid black;
-        transition: all 0.3s;
-        box-sizing: border-box;
-        outline: 0;
-        display: inline-block;
-        text-align: left;
-        position: relative;
-    }
 
     h1 {
         font-size: 24px;
+    }
+
+    .p3 {
+        margin-left: 2%;
     }
 
 /* Special Team class */
@@ -301,20 +241,15 @@ h1 {
     max-width: 130px;
     max-height: 130px;
     margin-right: 2%;
-}
-
-   p {
-    margin-left: 2%;
    }
 
-
-   span p {
-    font-size: 0.7em;
-}
-
-.footerp {
-    margin-left: 10%;
-}
+   .pcontact {
+    font-size: 16px;
+   }
+    
+    .pwhat {
+        font-size: 16px;
+    }
     
 }
 
@@ -331,22 +266,8 @@ h1 {
         margin: 0 5px;
     }
 
-    .input {
-        width: 60%;
-        color: #000000;
-        font-family: Lato, Roboto, Montserrat;
-        font-weight: 500;
-        font-size: 0.76em;
-        border-radius: 5px;
-        line-height: 22px;
-        background-color: transparent;
-        border: 1px solid black;
-        transition: all 0.3s;
-        box-sizing: border-box;
-        outline: 0;
-        display: inline-block;
-        text-align: left;
-        position: relative;
+    .p3 {
+        margin-left: 2%;
     }
 
     .team {
@@ -356,7 +277,7 @@ h1 {
         font-size: 21px;
        }
     
-       .team img {
+    .team img {
         padding-top: 2%;
         padding-bottom: 3%;
         max-width: 170px;
@@ -367,26 +288,9 @@ h1 {
     h1 {
         font-size: 24px;
     }
-    
-    p {
-        margin-left: 2%;
-       }
 
-    .pwhat {
-        text-align: left;
-       }
-
-    span {
-        display: flex;
-        overflow-x: hidden;
-    }
-    
-    span p {
-        font-size: 0.7em;
-    }
-    
-    .footerp {
-        margin-left: 10%;
+    .footer-about, .footer-services, .footer-contact {
+        width: 100%;
     }
     
 }
@@ -396,30 +300,12 @@ h1 {
     h1 {
         font-size: 24px;
     }
-    
-    p {
-        margin-left: 5%;
-    }
 
-    .pwhat {
-        text-align: center;
-       }
+    .footer-about, .footer-services, .footer-contact {
+        width: 100%;
+    }
+    
 
-   span {
-  
-        overflow-x: hidden;
-    }
-    
-    span p {
-        font-size: 0.7em;
-        margin-left: 2%;
-
-    }
-    
-    .footerp {
-       margin-left: 70%;
-    }
-    
 }
 
 @media print {
