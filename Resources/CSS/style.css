@@ -163,6 +163,24 @@ a:hover::after {
     transform-origin: bottom left;
 }
 
+i {
+    padding-right: 8px;
+    transition: color 0.25s;
+    font-size: 26px;
+}
+
+.icon-link i:hover {
+    color: #54b3d6;
+}
+
+.icon-link {
+    font-style: italic;
+}
+
+.icon-link i {
+    color: #0077B5;
+}
+
 /* hyphenate for text around images and stuff */
 .hyphenate {
     -webkit-hyphens: auto;
