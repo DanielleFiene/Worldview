@@ -169,6 +169,10 @@ i {
     font-size: 26px;
 }
 
+.icon-link i {
+    color: #0077B5;
+}
+
 .icon-link i:hover {
     color: #54b3d6;
 }
@@ -177,8 +181,16 @@ i {
     font-style: italic;
 }
 
-.icon-link i {
-    color: #0077B5;
+.icon-link-pdf {
+    font-style: italic;
+}
+
+.icon-link-pdf i {
+    color: #F40F02;
+}
+
+.icon-link-pdf i:hover {
+    color: #fe766e;
 }
 
 /* hyphenate for text around images and stuff */
