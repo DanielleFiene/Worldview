@@ -196,6 +196,19 @@ i {
     color: #fe766e;
 }
 
+.icon-link-globe {
+    font-style: italic;
+}
+
+.icon-link-globe i {
+    color: #3c4043;
+}
+
+.icon-link-globe i:hover {
+    color: #868e96;
+}
+
+
 /* hyphenate for text around images and stuff */
 .hyphenate {
     -webkit-hyphens: auto;
