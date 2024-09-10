@@ -7,7 +7,7 @@
 }
 
 /* body */
-body {
+html, body {
     background-image: url('../Images/blockchain_cool.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,15 +20,19 @@ body {
     text-align: center;
     line-height: 1.4;
     letter-spacing: 0.05em;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* Navigation bar */
+
 ul {
     background-color: #000000;
     list-style-type: none;
     margin: 0;
     padding: 15px;
     opacity: 0.8;
+    text-align: center;
 }
 
 li {
@@ -36,13 +40,15 @@ li {
 }
 
 nav ul {
-    float: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 nav ul li {
-    display: inline-block;
-    line-height: 10px;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 #nav ul li a {
@@ -134,7 +140,7 @@ a:hover::after {
     }
 
     h1 {
-       font-size: 24px;
+       font-size: 32px !important;
     }
 
     .footer-main {
