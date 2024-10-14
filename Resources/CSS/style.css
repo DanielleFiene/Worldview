@@ -186,6 +186,30 @@ i {
 
 .icon-link-pdf {
     font-style: italic;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icon-link-pdf::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: #54b3d6; /* Customize your underline color */
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+/* On hover, reveal the underline */
+.icon-link-pdf:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .icon-link-pdf i {
