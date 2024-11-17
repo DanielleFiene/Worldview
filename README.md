@@ -3,6 +3,8 @@
 ## Overview
 The Worldview Investment Management website serves as a professional online presence for the company, offering information about its services, team, and blockchain-driven investment solutions. It also features downloadable documentation and easy access to contact details.
 
+![Screenshot WV](https://github.com/user-attachments/assets/dfce8c07-e6c0-4e80-815f-5f6847772771)
+
 ## Features
 - Home Page (index.html): The main landing page with company branding and an introduction to services.
 - What We Do Page (what_we_do.html): Describes Worldview's focus on blockchain-based investment solutions and services.
@@ -111,8 +113,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ### Concluding Thoughts:
 This project demonstrates the use of modern web design practices, such as a mobile-first approach, smooth animations, and iconography to build an intuitive, user-friendly, and professional-looking website. It's a perfect portfolio piece for anyone looking to showcase their web development skills in a real-world setting.
 
----
-
-Feel free to personalize this README further or adjust based on any additional features or content you might want to emphasize! Let me know if you need further changes or additions.
-
-![Screenshot WV](https://github.com/user-attachments/assets/dfce8c07-e6c0-4e80-815f-5f6847772771)
